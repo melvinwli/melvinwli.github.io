@@ -137,12 +137,11 @@
                 </section>
                 <div>
                   <div class="nav-wrapper fade-in">
-                    <div class="sc-jrcTuL kxojRT nav">Home</div>
-                    <div class="sc-jrcTuL kxojRT nav">About Us</div>
-                    <div class="sc-jrcTuL kxojRT nav">Services</div>
-                    <div class="sc-jrcTuL kxojRT nav">Testimonials</div>
-                    <div class="sc-jrcTuL kxojRT nav">Location</div>
-                    <div class="sc-jrcTuL kxojRT nav">Contact Us</div>
+                    <div onclick="scrollToSection('section1')" class="sc-jrcTuL kxojRT nav">Home</div>
+                    <div onclick="scrollToSection('section2')" class="sc-jrcTuL kxojRT nav">About Us</div>
+                    <div onclick="scrollToSection('section3')" class="sc-jrcTuL kxojRT nav">Services</div>
+                    <div onclick="scrollToSection('section4')" class="sc-jrcTuL kxojRT nav">Testimonials</div>
+                    <div onclick="scrollToSection('section5')" class="sc-jrcTuL kxojRT nav">Contact Us</div>
                   </div>
                 </div>
                 <div class="header-socials">
@@ -156,6 +155,7 @@
           </section>
           <div>
             <section
+            id="section1"
               class="sc-ftTHYK gHukVr block hero-block scroll-margin-top"
               data-section-id="93hdkbdc9y9cyw6vhd77"
             >
@@ -218,6 +218,7 @@
               </div>
             </section>
             <section
+            id="section2"
               class="sc-kDvujY sentinel scroll-margin-top kind-about-sentinel"
               data-section-id="kc4cxfy4ypgp84ymqfdk"
             >
@@ -263,6 +264,7 @@
               </section>
             </section>
             <section
+            id="section3"
               class="sc-kDvujY sentinel scroll-margin-top kind-services-sentinel"
               data-section-id="9j6kwjxwr3wghr7drf7w"
             >
@@ -322,6 +324,7 @@
               />
             </div>
             <section
+            id="section4"
               class="sc-kDvujY sentinel scroll-margin-top kind-testimonials-sentinel"
               data-section-id="fkhpjkg9mwfpt8rkwpkr"
             >
@@ -415,37 +418,9 @@
               class="sc-kDvujY sentinel scroll-margin-top kind-location-sentinel"
               data-section-id="kh86ytcphv3ckmxyjxr9"
             >
-              <section
-                class="sc-pyfCe hRSLsO block map-block"
-                style="
-                  background: transparent no-repeat left top
-                    url('/images/map.jpg');
-                  background-size: cover;
-                "
-              >
-                <div class="map">
-                  <div class="location-info-container">
-                    <div class="location-info">
-                      <div class="location-title">
-                        Snow Path Immigration Consultancy
-                      </div>
-                      <div class="location-address-1">Toronto</div>
-                    </div>
-                    <a
-                      href="http://maps.google.com/?q=Toronto"
-                      class="location-cta"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="get directions"
-                    >
-                      <div class="location-cta-text">Get directions</div>
-                      <div class="location-cta-arrow"></div>
-                    </a>
-                  </div>
-                </div>
-              </section>
-            </section>
+
             <section
+            id="section5"
               class="sc-kDvujY sentinel scroll-margin-top kind-cta-sentinel"
               data-section-id="vdwjkwhxqj69pymdpbtw"
             >
@@ -504,22 +479,13 @@
                   ©
                   <!-- -->Snow Path Immigration Consultancy
                 </div>
-                <div class="zarla-badge-wrapper">
-                  <a
-                    target="_blank"
-                    rel="noopener nofollow"
-                    href="https://www.zarla.com"
-                    aria-label="Zarla website builder"
-                  >
-                    <div class="zarla-badge"></div>
-                  </a>
-                </div>
               </footer>
             </section>
           </div>
         </div>
       </section>
     </div>
+    <script src="scripts.js"></script>
     <script id="__NEXT_DATA__" type="application/json">
       {
         "props": {
